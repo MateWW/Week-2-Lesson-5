@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prywatność za pomocą domknięcia</title>
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+		body{
+			margin:0;
+			padding: 0;
+			width:100%;
+			background:#333333;
+		}
+		section{
+			width:60%;
+			margin:25px auto;
+			 background: #303030;
+		    color: #f1f1f1;
+		    padding: 10px 16px;
+		    border-radius: 2px;
+		    border-top: 4px solid #00aeef;
+		    -moz-box-shadow: inset 0 0 10px #000;
+		    box-shadow: inset 0 0 10px #000;
+		}
+		div {
+			display: block;
+		    line-height: 1.5rem;
+		    counter-increment: line;
+		}
+		div:before{
+			 content: counter(line);
+		      display: inline-block;
+		      border-right: 1px solid #ddd;
+		      padding: 0 .5em;
+		      margin-right: .5em;
+		      color: #888;
+		}
+	</style>
+</head>
+<body>
+	<section>
+	</section>
+</body>
+</html>
